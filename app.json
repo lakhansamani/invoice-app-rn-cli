@@ -1,4 +1,10 @@
 {
   "name": "InvoiceApp",
-  "displayName": "InvoiceApp"
+  "displayName": "InvoiceApp",
+  "expo": {
+    "slug": "InvoiceApp",
+    "name": "InvoiceApp",
+    "sdkVersion": "50.0.0",
+    "entryPoint": ".vscode/exponentIndex.js"
+  }
 }

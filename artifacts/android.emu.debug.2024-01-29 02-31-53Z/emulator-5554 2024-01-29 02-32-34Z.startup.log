@@ -1,0 +1,361 @@
+--------- beginning of main
+01-29 08:02:02.083  7096  7096 I com.invoiceapp: Late-enabling -Xcheck:jni
+01-29 08:02:02.103  7096  7096 I com.invoiceapp: Using CollectorTypeCC GC.
+01-29 08:02:02.139  7096  7096 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10218; state: ENABLED
+01-29 08:02:02.139  7096  7096 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10218; state: ENABLED
+--------- beginning of system
+01-29 08:02:02.157  7096  7096 W ActivityThread: Package uses different ABI(s) than its instrumentation: package[com.invoiceapp]: arm64-v8a, null instrumentation[com.invoiceapp.test]: null, null
+01-29 08:02:02.176  7096  7096 W com.invoiceapp: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]} | PCL[])
+01-29 08:02:02.180  7096  7096 W com.invoiceapp: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[] | PCL[/system/framework/android.test.runner.jar*4168958247])
+01-29 08:02:02.182  7096  7096 W com.invoiceapp: ClassLoaderContext classpath size mismatch. expected=0, found=2 (PCL[] | PCL[/system/framework/android.test.runner.jar*4168958247:/system/framework/android.test.mock.jar*3186112116])
+01-29 08:02:02.182  7096  7096 W ziparchive: Unable to open '/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.dm': No such file or directory
+01-29 08:02:02.183  7096  7096 W ziparchive: Unable to open '/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.dm': No such file or directory
+01-29 08:02:02.511  7096  7096 W ziparchive: Unable to open '/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.dm': No such file or directory
+01-29 08:02:02.511  7096  7096 W ziparchive: Unable to open '/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.dm': No such file or directory
+01-29 08:02:02.843  7096  7096 D nativeloader: Configuring clns-6 for other apk /system/framework/android.test.runner.jar:/system/framework/android.test.mock.jar:/system/framework/android.test.base.jar:/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.apk:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/lib/arm64:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/lib/arm64:/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.apk!/lib/arm64-v8a:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.invoiceapp
+01-29 08:02:02.869  7096  7096 V GraphicsEnvironment: Currently set values for:
+01-29 08:02:02.870  7096  7096 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+01-29 08:02:02.870  7096  7096 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+01-29 08:02:02.870  7096  7096 V GraphicsEnvironment: ANGLE GameManagerService for com.invoiceapp: false
+01-29 08:02:02.870  7096  7096 V GraphicsEnvironment: com.invoiceapp is not listed in per-application setting
+01-29 08:02:02.870  7096  7096 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+01-29 08:02:02.871  7096  7096 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+01-29 08:02:02.879  7096  7096 D nativeloader: Configuring clns-7 for other apk /system/framework/android.test.mock.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/lib/arm64:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/lib/arm64, permitted_path=/data:/mnt/expand
+01-29 08:02:02.880  7096  7096 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+01-29 08:02:02.882  7096  7096 D nativeloader: Configuring clns-8 for other apk /system/framework/android.test.runner.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/lib/arm64:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/lib/arm64, permitted_path=/data:/mnt/expand
+01-29 08:02:02.883  7096  7096 W com.invoiceapp: ClassLoaderContext shared library size mismatch. Expected=2, found=3 (PCL[]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]} | PCL[]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]#PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]}};PCL[/system/framework/android.test.runner.jar*4168958247:/system/framework/android.test.mock.jar*3186112116:/system/framework/android.test.base.jar*836642756:/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.apk*2761699892:/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.apk!classes2.dex*3035983011:/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.apk!classes3.dex*831054007:/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.apk!classes4.dex*2490426732:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk*2961737620:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk!classes2.dex*3809288185:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk!classes3.dex*220121487:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk!classes4.dex*3027543280:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk!classes5.dex*2305052281:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk!classes6.dex*1085835155])
+01-29 08:02:02.885  7096  7096 W com.invoiceapp: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[] | PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]#PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]}};PCL[/system/framework/android.test.runner.jar*4168958247:/system/framework/android.test.mock.jar*3186112116:/system/framework/android.test.base.jar*836642756:/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.apk*2761699892:/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.apk!classes2.dex*3035983011:/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.apk!classes3.dex*831054007:/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.apk!classes4.dex*2490426732:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk*2961737620:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk!classes2.dex*3809288185:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk!classes3.dex*220121487:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk!classes4.dex*3027543280:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk!classes5.dex*2305052281:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk!classes6.dex*1085835155])
+01-29 08:02:02.886  7096  7096 W com.invoiceapp: ClassLoaderContext classpath size mismatch. expected=0, found=2 (PCL[] | PCL[/system/framework/android.test.runner.jar*4168958247:/system/framework/android.test.mock.jar*3186112116]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]#PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]}};PCL[/system/framework/android.test.runner.jar*4168958247:/system/framework/android.test.mock.jar*3186112116:/system/framework/android.test.base.jar*836642756:/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.apk*2761699892:/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.apk!classes2.dex*3035983011:/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.apk!classes3.dex*831054007:/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.apk!classes4.dex*2490426732:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk*2961737620:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk!classes2.dex*3809288185:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk!classes3.dex*220121487:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk!classes4.dex*3027543280:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk!classes5.dex*2305052281:/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.apk!classes6.dex*1085835155])
+01-29 08:02:02.886  7096  7096 W ziparchive: Unable to open '/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.dm': No such file or directory
+01-29 08:02:02.886  7096  7096 W ziparchive: Unable to open '/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.dm': No such file or directory
+01-29 08:02:02.975  7096  7096 W ziparchive: Unable to open '/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.dm': No such file or directory
+01-29 08:02:02.977  7096  7096 W ziparchive: Unable to open '/data/app/~~oFjLL_A_sIeKfDPh_YbP7A==/com.invoiceapp-A6VmarfS7NwP-v9URZplZQ==/base.dm': No such file or directory
+01-29 08:02:03.113  7096  7096 I MonitoringInstr: newApplication called!
+01-29 08:02:03.118  7096  7096 I MonitoringInstr: Instrumentation started!
+01-29 08:02:03.122  7096  7096 I AndroidJUnitRunner: onCreate Bundle[{debug=false, detoxServer=ws://localhost:53785, detoxSessionId=69c3054d-1e01-c9a8-4e35-ec156105b2fa}]
+01-29 08:02:03.123  7096  7096 V TestEventClient: No service name argument was given (testDiscoveryService, testRunEventService or orchestratorService)
+01-29 08:02:03.125  7096  7096 V SoLoader: Init System Loader delegate
+01-29 08:02:03.130  7096  7129 D AndroidJUnitRunner: onStart is called.
+01-29 08:02:03.269  7096  7096 W com.invoiceapp: Accessing hidden field Landroid/view/View;->mKeyedTags:Landroid/util/SparseArray; (unsupported, reflection, allowed)
+01-29 08:02:03.269  7096  7096 W com.invoiceapp: Accessing hidden field Landroid/view/View;->mListenerInfo:Landroid/view/View$ListenerInfo; (unsupported, reflection, allowed)
+01-29 08:02:03.269  7096  7096 W com.invoiceapp: Accessing hidden field Landroid/view/View$ListenerInfo;->mOnClickListener:Landroid/view/View$OnClickListener; (unsupported, reflection, allowed)
+01-29 08:02:03.271  7096  7096 I flipper : flipper: FlipperClient::addPlugin Inspector
+01-29 08:02:03.271  7096  7096 I flipper : flipper: FlipperClient::addPlugin Databases
+01-29 08:02:03.272  7096  7096 I flipper : flipper: FlipperClient::addPlugin Preferences
+01-29 08:02:03.275  7096  7096 I flipper : flipper: FlipperClient::addPlugin CrashReporter
+01-29 08:02:03.276  7096  7096 I flipper : flipper: FlipperClient::addPlugin Network
+01-29 08:02:03.280  7096  7133 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+01-29 08:02:03.294  7096  7129 I InstrConnection: Could not send broadcast or register receiver (isolatedProcess?)
+01-29 08:02:03.294  7096  7141 D TrafficStats: tagSocket(93) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:03.296  7096  7129 D TestRequestBuilder: Using class path scanning to discover tests
+01-29 08:02:03.296  7096  7129 I TestRequestBuilder: Scanning classpath to find tests in paths [/data/app/~~5-k-P_HunO8qHrmix6AU0A==/com.invoiceapp.test-oTTZwmdZqYXEngv224XsTQ==/base.apk]
+01-29 08:02:03.297  7096  7129 W com.invoiceapp: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+01-29 08:02:03.301  7096  7141 W unknown:ReconnectingWebSocket: Couldn't connect to "ws://10.0.2.2:8081/message?device=sdk_gphone64_arm64%20-%2014%20-%20API%2034&app=com.invoiceapp&clientid=BridgeDevSupportManager", will silently retry
+01-29 08:02:03.329  7096  7133 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+01-29 08:02:03.333  7096  7133 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+01-29 08:02:03.346  7096  7140 D TrafficStats: tagSocket(94) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:03.348  7096  7140 W unknown:InspectorPackagerConnection: Couldn't connect to packager, will silently retry
+01-29 08:02:03.525  7096  7143 D TrafficStats: tagSocket(93) with statsTag=0x90000, statsUid=-1
+01-29 08:02:03.811  7096  7129 D AndroidJUnitRunner: Use the raw file system for managing file I/O.
+01-29 08:02:03.813  7096  7129 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+01-29 08:02:03.813  7096  7129 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+01-29 08:02:03.813  7096  7129 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+01-29 08:02:03.813  7096  7129 D TestExecutor: Adding listener androidx.test.internal.runner.listener.TraceRunListener
+01-29 08:02:03.814  7096  7129 I TestRunner: run started: 1 tests
+01-29 08:02:03.814  7096  7129 I TestRunner: started: runDetoxTests(com.invoiceapp.DetoxTest)
+01-29 08:02:03.819  7096  7129 I Detox   : Detox server connection details: url=ws://localhost:53785, sessionId=69c3054d-1e01-c9a8-4e35-ec156105b2fa
+01-29 08:02:03.821  7096  7129 W FileTestStorage: Output properties is not supported.
+01-29 08:02:03.821  7096  7129 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+01-29 08:02:03.824  7096  7129 D EventInjectionStrategy: Creating injection strategy with input manager.
+01-29 08:02:03.825  7096  7129 W com.invoiceapp: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+01-29 08:02:03.826  7096  7129 W com.invoiceapp: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+01-29 08:02:03.826  7096  7129 W com.invoiceapp: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+01-29 08:02:03.829  7096  7129 W com.invoiceapp: Accessing hidden field Ljava/lang/reflect/Field;->accessFlags:I (unsupported, reflection, allowed)
+01-29 08:02:03.829  7096  7129 I Detox   : Connecting to server...
+01-29 08:02:03.829  7096  7129 I DetoxWSClient: At connectToServer
+01-29 08:02:03.832  7096  7150 D TrafficStats: tagSocket(102) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:03.838  7096  7150 D DetoxWSClient: At onOpen
+01-29 08:02:03.838  7096  7150 I DetoxWSClient: Sending out action 'login' (ID #0)
+01-29 08:02:03.839  7096  7150 I Detox   : Connected to server!
+01-29 08:02:03.841  7096  7150 D DetoxWSClient: Received action 'loginSuccess' (ID #0, params={"testerConnected":true,"appConnected":true})
+01-29 08:02:03.841  7096  7146 I DetoxDispatcher: Handling action 'loginSuccess' (ID #0)...
+01-29 08:02:03.841  7096  7146 I DetoxDispatcher: Done with action 'loginSuccess'
+01-29 08:02:03.841  7096  7129 I Detox   : Launching the tested activity!
+01-29 08:02:03.881  7096  7150 D DetoxWSClient: Received action 'isReady' (ID #-1000, params={})
+01-29 08:02:03.881  7096  7146 I DetoxDispatcher: Handling action 'isReady' (ID #-1000)...
+01-29 08:02:03.945  7096  7096 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+01-29 08:02:03.962  7096  7096 D LifecycleMonitor: Lifecycle status change: com.invoiceapp.MainActivity@689de87 in: PRE_ON_CREATE
+01-29 08:02:03.988  7096  7162 D TrafficStats: tagSocket(105) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:03.990  7096  7160 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+01-29 08:02:04.009  7096  7096 W com.invoiceapp: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+01-29 08:02:04.012  7096  7096 W com.invoiceapp: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+01-29 08:02:04.016  7096  7096 D LifecycleMonitor: Lifecycle status change: com.invoiceapp.MainActivity@689de87 in: CREATED
+01-29 08:02:04.019  7096  7096 D LifecycleMonitor: Lifecycle status change: com.invoiceapp.MainActivity@689de87 in: STARTED
+01-29 08:02:04.019  7096  7160 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+01-29 08:02:04.021  7096  7096 D LifecycleMonitor: Lifecycle status change: com.invoiceapp.MainActivity@689de87 in: RESUMED
+01-29 08:02:04.026  7096  7160 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+01-29 08:02:04.033  7096  7096 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10218; state: DISABLED
+01-29 08:02:04.034  7096  7162 W unknown:ReactNative: The packager does not seem to be running as we got an IOException requesting its status: Failed to connect to /10.0.2.2:8081
+01-29 08:02:04.034  7096  7096 W OpenGLRenderer: Unknown dataspace 0
+01-29 08:02:04.052  7096  7096 D Detox.RNMarker: REACT_BRIDGE_LOADING_START (null)
+01-29 08:02:04.053  7096  7096 W unknown:ReactNative: Packager connection already open, nooping.
+01-29 08:02:04.077  7096  7158 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+01-29 08:02:04.078  7096  7158 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+01-29 08:02:04.089  7096  7158 I Gralloc4: mapper 4.x is not supported
+01-29 08:02:04.089  7096  7164 D Detox.RNMarker: CREATE_REACT_CONTEXT_START (HermesExecutorDebug)
+01-29 08:02:04.090  7096  7164 D Detox.RNMarker: PROCESS_PACKAGES_START (null)
+01-29 08:02:04.102  7096  7158 E OpenGLRenderer: Unable to match the desired swap behavior.
+01-29 08:02:04.110  7096  7164 D Detox.RNMarker: CREATE_MODULE_START (JSCHeapCapture)
+01-29 08:02:04.130  7096  7164 D Detox.RNMarker: CREATE_MODULE_END (JSCHeapCapture)
+01-29 08:02:04.132  7096  7164 D Detox.RNMarker: CREATE_MODULE_START (FrescoModule)
+01-29 08:02:04.134  7096  7164 D Detox.RNMarker: CREATE_MODULE_END (FrescoModule)
+01-29 08:02:04.147  7096  7164 D Detox.RNMarker: PROCESS_PACKAGES_END (null)
+01-29 08:02:04.156  7096  7164 D Detox.RNMarker: CREATE_CATALYST_INSTANCE_START (null)
+01-29 08:02:04.207  7096  7164 D Detox.RNMarker: CREATE_CATALYST_INSTANCE_END (null)
+01-29 08:02:04.207  7096  7164 D Detox.RNMarker: PRE_RUN_JS_BUNDLE_START (null)
+01-29 08:02:04.208  7096  7170 D Detox.RNMarker: CREATE_REACT_CONTEXT_END (null)
+01-29 08:02:04.209  7096  7164 E unknown:ReactNative: Exception in native call
+01-29 08:02:04.209  7096  7164 E unknown:ReactNative: java.lang.RuntimeException: Unable to load script. Make sure you're either running Metro (run 'npx react-native start') or that your bundle 'index.android.bundle' is packaged correctly for release.
+01-29 08:02:04.209  7096  7164 E unknown:ReactNative: 	at com.facebook.react.bridge.CatalystInstanceImpl.jniLoadScriptFromAssets(Native Method)
+01-29 08:02:04.209  7096  7164 E unknown:ReactNative: 	at com.facebook.react.bridge.CatalystInstanceImpl.loadScriptFromAssets(CatalystInstanceImpl.java:233)
+01-29 08:02:04.209  7096  7164 E unknown:ReactNative: 	at com.facebook.react.bridge.JSBundleLoader$1.loadScript(JSBundleLoader.java:27)
+01-29 08:02:04.209  7096  7164 E unknown:ReactNative: 	at com.facebook.react.bridge.CatalystInstanceImpl.runJSBundle(CatalystInstanceImpl.java:262)
+01-29 08:02:04.209  7096  7164 E unknown:ReactNative: 	at com.facebook.react.ReactInstanceManager.createReactContext(ReactInstanceManager.java:1404)
+01-29 08:02:04.209  7096  7164 E unknown:ReactNative: 	at com.facebook.react.ReactInstanceManager.lambda$runCreateReactContextOnNewThread$2(ReactInstanceManager.java:1101)
+01-29 08:02:04.209  7096  7164 E unknown:ReactNative: 	at com.facebook.react.ReactInstanceManager.$r8$lambda$AwGS8CysOZmWJw3kRVARHQvw9Ew(Unknown Source:0)
+01-29 08:02:04.209  7096  7164 E unknown:ReactNative: 	at com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda5.run(Unknown Source:4)
+01-29 08:02:04.209  7096  7164 E unknown:ReactNative: 	at java.lang.Thread.run(Thread.java:1012)
+01-29 08:02:04.215  7096  7096 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10218; state: ENABLED
+01-29 08:02:04.227  7096  7096 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10218; state: ENABLED
+01-29 08:02:04.265  7096  7158 E OpenGLRenderer: Unable to match the desired swap behavior.
+01-29 08:02:05.310  7096  7141 D TrafficStats: tagSocket(147) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:05.353  7096  7140 D TrafficStats: tagSocket(147) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:05.597  7096  7177 D TrafficStats: tagSocket(147) with statsTag=0x90000, statsUid=-1
+01-29 08:02:05.875  7096  7158 D EGL_emulation: app_time_stats: avg=390.62ms min=10.65ms max=1522.29ms count=4
+01-29 08:02:07.318  7096  7141 D TrafficStats: tagSocket(141) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:07.359  7096  7140 D TrafficStats: tagSocket(141) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:07.609  7096  7179 D TrafficStats: tagSocket(141) with statsTag=0x90000, statsUid=-1
+01-29 08:02:09.330  7096  7141 D TrafficStats: tagSocket(141) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:09.368  7096  7140 D TrafficStats: tagSocket(141) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:09.621  7096  7181 D TrafficStats: tagSocket(141) with statsTag=0x90000, statsUid=-1
+01-29 08:02:11.338  7096  7141 D TrafficStats: tagSocket(141) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:11.377  7096  7140 D TrafficStats: tagSocket(141) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:11.630  7096  7183 D TrafficStats: tagSocket(141) with statsTag=0x90000, statsUid=-1
+01-29 08:02:13.353  7096  7141 D TrafficStats: tagSocket(141) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:13.383  7096  7140 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:13.641  7096  7185 D TrafficStats: tagSocket(5) with statsTag=0x90000, statsUid=-1
+01-29 08:02:13.846  7096  7150 D DetoxWSClient: Received action 'currentStatus' (ID #1, params={})
+01-29 08:02:13.846  7096  7147 I DetoxDispatcher: Handling action 'currentStatus' (ID #1)...
+01-29 08:02:15.358  7096  7141 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:15.388  7096  7140 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:15.649  7096  7187 D TrafficStats: tagSocket(5) with statsTag=0x90000, statsUid=-1
+01-29 08:02:17.363  7096  7141 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:17.391  7096  7140 D TrafficStats: tagSocket(141) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:17.655  7096  7189 D TrafficStats: tagSocket(69) with statsTag=0x90000, statsUid=-1
+01-29 08:02:19.092  7096  7158 D EGL_emulation: app_time_stats: avg=826.05ms min=11.87ms max=12972.70ms count=16
+01-29 08:02:19.213  7096  7096 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@654f1b8
+01-29 08:02:19.237  7096  7096 D Detox.RNMarker: DOWNLOAD_START (null)
+01-29 08:02:19.240  7096  7162 D TrafficStats: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:19.339  7096  7158 E OpenGLRenderer: Unable to match the desired swap behavior.
+01-29 08:02:19.660  7096  7195 D TrafficStats: tagSocket(144) with statsTag=0x90000, statsUid=-1
+01-29 08:02:20.500  7096  7158 D EGL_emulation: app_time_stats: avg=105.16ms min=12.43ms max=628.04ms count=11
+01-29 08:02:21.519  7096  7158 D EGL_emulation: app_time_stats: avg=42.44ms min=15.01ms max=233.78ms count=24
+01-29 08:02:21.664  7096  7197 D TrafficStats: tagSocket(146) with statsTag=0x90000, statsUid=-1
+01-29 08:02:21.908  7096  7096 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@d207db6
+01-29 08:02:21.911  7096  7162 D Detox.RNMarker: DOWNLOAD_END ({"url":"http:\/\/10.0.2.2:8081\/index.bundle?platform=android&dev=true&lazy=true&minify=false&app=com.invoiceapp&modulesOnly=false&runModule=true","filesChangedCount":1903})
+01-29 08:02:21.911  7096  7096 D Detox.RNMarker: REACT_BRIDGE_LOADING_START (null)
+01-29 08:02:21.914  7096  7199 D Detox.RNMarker: CREATE_REACT_CONTEXT_START (HermesExecutorDebug)
+01-29 08:02:21.914  7096  7199 D Detox.RNMarker: PROCESS_PACKAGES_START (null)
+01-29 08:02:21.915  7096  7199 D Detox.RNMarker: CREATE_MODULE_START (JSCHeapCapture)
+01-29 08:02:21.919  7096  7199 D Detox.RNMarker: CREATE_MODULE_END (JSCHeapCapture)
+01-29 08:02:21.920  7096  7199 D Detox.RNMarker: CREATE_MODULE_START (FrescoModule)
+01-29 08:02:21.921  7096  7199 D Detox.RNMarker: CREATE_MODULE_END (FrescoModule)
+01-29 08:02:21.921  7096  7199 D Detox.RNMarker: PROCESS_PACKAGES_END (null)
+01-29 08:02:21.921  7096  7199 D Detox.RNMarker: CREATE_CATALYST_INSTANCE_START (null)
+01-29 08:02:21.923  7096  7199 D Detox.RNMarker: CREATE_CATALYST_INSTANCE_END (null)
+01-29 08:02:21.923  7096  7199 D Detox.RNMarker: PRE_RUN_JS_BUNDLE_START (null)
+01-29 08:02:21.924  7096  7200 D Detox.RNMarker: CREATE_REACT_CONTEXT_END (null)
+01-29 08:02:21.924  7096  7200 D Detox.RNMarker: RUN_JS_BUNDLE_START (/index.bundle?platform=android&dev=true&lazy=true&minify=false&app=com.invoiceapp&modulesOnly=false&runModule=true)
+01-29 08:02:21.928  7096  7096 W unknown:ReactNative: Packager connection already open, nooping.
+01-29 08:02:21.929  7096  7201 D Detox.RNMarker: CREATE_MODULE_START (UIManager)
+01-29 08:02:21.954  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.traceupdateoverlay.TraceUpdateOverlayManager
+01-29 08:02:21.963  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+01-29 08:02:21.964  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+01-29 08:02:21.965  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+01-29 08:02:21.967  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+01-29 08:02:21.973  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+01-29 08:02:21.974  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+01-29 08:02:21.975  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+01-29 08:02:21.976  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+01-29 08:02:21.977  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+01-29 08:02:21.977  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+01-29 08:02:21.978  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+01-29 08:02:21.981  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+01-29 08:02:21.982  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+01-29 08:02:21.983  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+01-29 08:02:21.984  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+01-29 08:02:21.989  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+01-29 08:02:21.989  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+01-29 08:02:21.989  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+01-29 08:02:21.992  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+01-29 08:02:21.993  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+01-29 08:02:21.995  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+01-29 08:02:21.996  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+01-29 08:02:21.997  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+01-29 08:02:22.000  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+01-29 08:02:22.001  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+01-29 08:02:22.001  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+01-29 08:02:22.005  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+01-29 08:02:22.006  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+01-29 08:02:22.006  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+01-29 08:02:22.007  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+01-29 08:02:22.007  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+01-29 08:02:22.008  7096  7201 E unknown:UIManagerModuleConstantsHelper: Direct event name for 'RNSScreen' doesn't correspond to the naming convention, expected 'topEventName'->'onEventName', got 'topHeaderBackButtonClickedEvent'->'onHeaderBackButtonClicked'
+01-29 08:02:22.011  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+01-29 08:02:22.012  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+01-29 08:02:22.013  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+01-29 08:02:22.014  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+01-29 08:02:22.014  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.SearchBarManager
+01-29 08:02:22.023  7096  7201 D Detox.RNMarker: CREATE_MODULE_END (UIManager)
+01-29 08:02:22.030  7096  7096 D DetoxRNLoading: Listener-proxy method called: onReactContextInitialized
+01-29 08:02:22.030  7096  7096 I DetoxRNLoading: Got new RN-context async'ly through listener
+01-29 08:02:22.030  7096  7096 D DetoxRNLoading: Listener-proxy method called: equals
+01-29 08:02:22.031  7096  7129 I DetoxRNIdleRes: Setting up Espresso Idling Resources for React Native
+01-29 08:02:22.031  7096  7129 D IdlingRegistry: Unregistering idling resources: [null, null, null, null]
+01-29 08:02:22.032  7096  7096 D Detox.RNMarker: CREATE_MODULE_START (Timing)
+01-29 08:02:22.032  7096  7096 D Detox.RNMarker: CREATE_MODULE_END (Timing)
+01-29 08:02:22.033  7096  7129 D IdlingRegistry: Registering idling resources: [com.wix.detox.reactnative.idlingresources.timers.TimersIdlingResource@832784e, com.wix.detox.reactnative.idlingresources.BridgeIdlingResource@8792d6f, com.wix.detox.reactnative.idlingresources.uimodule.UIModuleIdlingResource@a4a5a7c, com.wix.detox.reactnative.idlingresources.AnimatedModuleIdlingResource@1227f05]
+01-29 08:02:22.033  7096  7129 D Detox.RNMarker: CREATE_MODULE_START (Networking)
+01-29 08:02:22.034  7096  7129 D Detox.RNMarker: CREATE_MODULE_END (Networking)
+01-29 08:02:22.034  7096  7129 D IdlingRegistry: Registering idling resources: [com.wix.detox.reactnative.idlingresources.NetworkIdlingResource@141cb5a]
+01-29 08:02:22.035  7096  7129 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=false)
+01-29 08:02:22.035  7096  7129 D Detox.RNMarker: CREATE_MODULE_START (RNCAsyncStorage)
+01-29 08:02:22.035  7096  7129 V AsyncStorageExpoMigration: No scoped database found
+01-29 08:02:22.035  7096  7129 D Detox.RNMarker: CREATE_MODULE_END (RNCAsyncStorage)
+01-29 08:02:22.035  7096  7129 D AsyncStorageIR: IR for Async-Storage is required! (legacy=false)
+01-29 08:02:22.036  7096  7129 D IdlingRegistry: Registering idling resources: [com.wix.detox.reactnative.idlingresources.AsyncStorageIdlingResource@695318b]
+01-29 08:02:22.036  7096  7129 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=true)
+01-29 08:02:22.036  7096  7129 D DetoxRNHelpers: Native RN module resolution (class com.facebook.react.modules.storage.AsyncStorageModule): no such class
+01-29 08:02:22.037  7096  7096 D AsyncStorageIR: Async-storage is busy!
+01-29 08:02:22.037  7096  7096 D Detox.RNMarker: CREATE_MODULE_START (NativeAnimatedModule)
+01-29 08:02:22.037  7096  7096 D Detox.RNMarker: CREATE_MODULE_END (NativeAnimatedModule)
+01-29 08:02:22.038  7096  7146 W com.invoiceapp: Long monitor contention with owner Instr: androidx.test.runner.AndroidJUnitRunner (7129) at void com.wix.detox.DetoxMain.launchActivityOnCue(android.content.Context, com.wix.detox.ActivityLaunchHelper)(DetoxMain.kt:54) waiters=0 in void com.wix.detox.DetoxMain$setupActionHandlers$SynchronizedActionHandler.handle(java.lang.String, long) for 18.152s
+01-29 08:02:22.039  7096  7096 W com.invoiceapp: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+01-29 08:02:22.039  7096  7096 W com.invoiceapp: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+01-29 08:02:22.039  7096  7096 W com.invoiceapp: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+01-29 08:02:22.039  7096  7201 D Detox.RNMarker: REACT_BRIDGE_LOADING_END (null)
+01-29 08:02:22.060  7096  7201 I flipper : flipper: FlipperClient::addPlugin Fresco
+01-29 08:02:22.119  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (NativePerformanceCxx)
+01-29 08:02:22.120  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (NativePerformanceObserverCxx)
+01-29 08:02:22.122  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (PlatformConstants)
+01-29 08:02:22.122  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (PlatformConstants)
+01-29 08:02:22.122  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (PlatformConstants)
+01-29 08:02:22.125  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (PlatformConstants)
+01-29 08:02:22.126  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (LogBox)
+01-29 08:02:22.126  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (LogBox)
+01-29 08:02:22.127  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (LogBox)
+01-29 08:02:22.127  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (LogBox)
+01-29 08:02:22.148  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (Timing)
+01-29 08:02:22.149  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (Timing)
+01-29 08:02:22.157  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (AppState)
+01-29 08:02:22.157  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (AppState)
+01-29 08:02:22.158  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (AppState)
+01-29 08:02:22.158  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (AppState)
+01-29 08:02:22.160  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (SourceCode)
+01-29 08:02:22.160  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (SourceCode)
+01-29 08:02:22.160  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (SourceCode)
+01-29 08:02:22.161  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (SourceCode)
+01-29 08:02:22.162  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (BlobModule)
+01-29 08:02:22.162  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (BlobModule)
+01-29 08:02:22.163  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (BlobModule)
+01-29 08:02:22.164  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (BlobModule)
+01-29 08:02:22.164  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (WebSocketModule)
+01-29 08:02:22.164  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (WebSocketModule)
+01-29 08:02:22.165  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (WebSocketModule)
+01-29 08:02:22.165  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (WebSocketModule)
+01-29 08:02:22.172  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (DevSettings)
+01-29 08:02:22.172  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (DevSettings)
+01-29 08:02:22.173  7096  7201 I WebViewFactory: Loading com.google.android.webview version 113.0.5672.136 (code 567263634)
+01-29 08:02:22.174  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (DevSettings)
+01-29 08:02:22.175  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (DevSettings)
+01-29 08:02:22.175  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (DevToolsSettingsManager)
+01-29 08:02:22.176  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (DevToolsSettingsManager)
+01-29 08:02:22.176  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (DevToolsSettingsManager)
+01-29 08:02:22.176  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (DevToolsSettingsManager)
+01-29 08:02:22.178  7096  7201 W ziparchive: Unable to open '/data/app/~~ZaNOQMQHGKyz0ZWlui4TLw==/com.google.android.trichromelibrary_567263634-nHN4o0jNy_XGlwMPkFw-3w==/TrichromeLibrary.dm': No such file or directory
+01-29 08:02:22.178  7096  7201 W ziparchive: Unable to open '/data/app/~~ZaNOQMQHGKyz0ZWlui4TLw==/com.google.android.trichromelibrary_567263634-nHN4o0jNy_XGlwMPkFw-3w==/TrichromeLibrary.dm': No such file or directory
+01-29 08:02:22.178  7096  7201 W com.invoiceapp: Entry not found
+01-29 08:02:22.179  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RedBox)
+01-29 08:02:22.181  7096  7201 D nativeloader: Configuring clns-9 for other apk /data/app/~~ZaNOQMQHGKyz0ZWlui4TLw==/com.google.android.trichromelibrary_567263634-nHN4o0jNy_XGlwMPkFw-3w==/TrichromeLibrary.apk. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~SDYLE6L36AcUgxGdjSL_9Q==/com.google.android.webview-qIJWGXNklyoOin_Arb1nag==/lib/arm64:/data/app/~~SDYLE6L36AcUgxGdjSL_9Q==/com.google.android.webview-qIJWGXNklyoOin_Arb1nag==/WebViewGoogle.apk!/lib/arm64-v8a:/data/app/~~ZaNOQMQHGKyz0ZWlui4TLw==/com.google.android.trichromelibrary_567263634-nHN4o0jNy_XGlwMPkFw-3w==/TrichromeLibrary.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+01-29 08:02:22.187  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (Networking)
+01-29 08:02:22.188  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (Networking)
+01-29 08:02:22.188  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (Appearance)
+01-29 08:02:22.189  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (Appearance)
+01-29 08:02:22.189  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (Appearance)
+01-29 08:02:22.189  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (Appearance)
+01-29 08:02:22.189  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (DevLoadingView)
+01-29 08:02:22.189  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (DevLoadingView)
+01-29 08:02:22.189  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (DevLoadingView)
+01-29 08:02:22.190  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (DevLoadingView)
+01-29 08:02:22.190  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (BugReporting)
+01-29 08:02:22.192  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (HeadlessJsTaskSupport)
+01-29 08:02:22.192  7096  7201 D nativeloader: Configuring clns-10 for other apk /data/app/~~SDYLE6L36AcUgxGdjSL_9Q==/com.google.android.webview-qIJWGXNklyoOin_Arb1nag==/WebViewGoogle.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~SDYLE6L36AcUgxGdjSL_9Q==/com.google.android.webview-qIJWGXNklyoOin_Arb1nag==/lib/arm64:/data/app/~~SDYLE6L36AcUgxGdjSL_9Q==/com.google.android.webview-qIJWGXNklyoOin_Arb1nag==/WebViewGoogle.apk!/lib/arm64-v8a:/data/app/~~ZaNOQMQHGKyz0ZWlui4TLw==/com.google.android.trichromelibrary_567263634-nHN4o0jNy_XGlwMPkFw-3w==/TrichromeLibrary.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+01-29 08:02:22.192  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (HeadlessJsTaskSupport)
+01-29 08:02:22.193  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (HeadlessJsTaskSupport)
+01-29 08:02:22.194  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (HeadlessJsTaskSupport)
+01-29 08:02:22.200  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (UIManager)
+01-29 08:02:22.215  7096  7201 W com.invoiceapp: Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (unsupported, reflection, allowed)
+01-29 08:02:22.215  7096  7201 W com.invoiceapp: Accessing hidden method Landroid/os/Trace;->traceBegin(JLjava/lang/String;)V (unsupported, reflection, allowed)
+01-29 08:02:22.215  7096  7201 W com.invoiceapp: Accessing hidden method Landroid/os/Trace;->traceEnd(J)V (unsupported, reflection, allowed)
+01-29 08:02:22.215  7096  7201 W com.invoiceapp: Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (unsupported, reflection, allowed)
+01-29 08:02:22.215  7096  7201 W com.invoiceapp: Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (unsupported, reflection, allowed)
+01-29 08:02:22.220  7096  7201 I cr_WVCFactoryProvider: Loaded version=113.0.5672.136 minSdkVersion=29 isBundle=false multiprocess=true packageId=2
+01-29 08:02:22.239  7096  7209 I cr_VariationsUtils: Failed reading seed file "/data/user/0/com.invoiceapp/app_webview/variations_seed_new"
+01-29 08:02:22.240  7096  7209 I cr_VariationsUtils: Failed reading seed file "/data/user/0/com.invoiceapp/app_webview/variations_seed"
+01-29 08:02:22.240  7096  7209 I cr_VariationsUtils: Requesting new seed from IVariationsSeedServer
+01-29 08:02:22.250  7096  7201 I cr_LibraryLoader: Successfully loaded native library
+01-29 08:02:22.252  7096  7201 I cr_CachingUmaRecorder: Flushed 8 samples from 8 histograms.
+01-29 08:02:22.260  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (UIManager)
+01-29 08:02:22.287  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (DeviceInfo)
+01-29 08:02:22.287  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (DeviceInfo)
+01-29 08:02:22.287  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (DeviceInfo)
+01-29 08:02:22.288  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (DeviceInfo)
+01-29 08:02:22.290  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (DeviceEventManager)
+01-29 08:02:22.292  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (DeviceEventManager)
+01-29 08:02:22.293  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (DeviceEventManager)
+01-29 08:02:22.293  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (DeviceEventManager)
+01-29 08:02:22.295  7096  7215 D TrafficStats: tagSocket(148) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:22.301  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (RNGestureHandlerModule)
+01-29 08:02:22.302  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (RNGestureHandlerModule)
+01-29 08:02:22.304  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (I18nManager)
+01-29 08:02:22.304  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (I18nManager)
+01-29 08:02:22.304  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (I18nManager)
+01-29 08:02:22.304  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (I18nManager)
+01-29 08:02:22.307  7096  7200 D Detox.RNMarker: RUN_JS_BUNDLE_END (/index.bundle?platform=android&dev=true&lazy=true&minify=false&app=com.invoiceapp&modulesOnly=false&runModule=true)
+01-29 08:02:22.311  7096  7200 I ReactNativeJS: Running "InvoiceApp" with {"rootTag":11}
+01-29 08:02:22.315  7096  7217 D TrafficStats: tagSocket(148) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:22.404  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (ImageLoader)
+01-29 08:02:22.411  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (ImageLoader)
+01-29 08:02:22.412  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (ImageLoader)
+01-29 08:02:22.412  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (ImageLoader)
+01-29 08:02:22.421  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (SoundManager)
+01-29 08:02:22.421  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (SoundManager)
+01-29 08:02:22.421  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (SoundManager)
+01-29 08:02:22.421  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (SoundManager)
+01-29 08:02:22.425  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (IntentAndroid)
+01-29 08:02:22.425  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (IntentAndroid)
+01-29 08:02:22.425  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (IntentAndroid)
+01-29 08:02:22.426  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (IntentAndroid)
+01-29 08:02:22.426  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (LinkingManager)
+01-29 08:02:22.504  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (NativeAnimatedModule)
+01-29 08:02:22.505  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (NativeAnimatedModule)
+01-29 08:02:22.514  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (FrameRateLogger)
+01-29 08:02:22.515  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (KeyboardObserver)
+01-29 08:02:22.570  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (AccessibilityInfo)
+01-29 08:02:22.570  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (AccessibilityInfo)
+01-29 08:02:22.572  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (AccessibilityInfo)
+01-29 08:02:22.572  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (AccessibilityInfo)
+01-29 08:02:22.572  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (AccessibilityManager)
+01-29 08:02:22.621  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (StatusBarManager)
+01-29 08:02:22.621  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (StatusBarManager)
+01-29 08:02:22.622  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (Statu

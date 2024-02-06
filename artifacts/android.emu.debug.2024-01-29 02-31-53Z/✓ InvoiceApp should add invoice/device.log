@@ -1,0 +1,165 @@
+--------- beginning of main
+01-29 08:02:37.543  7096  7096 E FrameTracker: force finish cuj, time out: J<IME_INSETS_ANIMATION::1@0@com.invoiceapp>
+01-29 08:02:37.823  7096  7150 D DetoxWSClient: Received action 'invoke' (ID #5, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["HomeScreenTitle",{"type":"boolean","value":false}]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]})
+01-29 08:02:37.824  7096  7146 I DetoxDispatcher: Handling action 'invoke' (ID #5)...
+01-29 08:02:37.826  7096  7146 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [HomeScreenTitle, false]
+01-29 08:02:37.827  7096  7146 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "HomeScreenTitle" and view has effective visibility <VISIBLE>)]
+01-29 08:02:37.828  7096  7146 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+01-29 08:02:37.830  7096  7146 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@f9d4b4f, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]
+01-29 08:02:37.836  7096  7096 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (view.getTag() is "HomeScreenTitle" and view has effective visibility <VISIBLE>)
+01-29 08:02:37.838  7096  7146 I DetoxWSClient: Sending out action 'invokeResult' (ID #5)
+01-29 08:02:37.840  7096  7146 I DetoxDispatcher: Done with action 'invoke'
+01-29 08:02:37.874  7096  7305 D TrafficStats: tagSocket(164) with statsTag=0x90000, statsUid=-1
+01-29 08:02:37.885  7096  7150 D DetoxWSClient: Received action 'invoke' (ID #6, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Add Invoice",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+01-29 08:02:37.886  7096  7146 I DetoxDispatcher: Handling action 'invoke' (ID #6)...
+01-29 08:02:37.887  7096  7146 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Add Invoice, false]
+01-29 08:02:37.887  7096  7146 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+01-29 08:02:37.888  7096  7146 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Add Invoice" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@a1b6aba]
+01-29 08:02:37.895  7096  7096 I ViewInteraction: Performing 'com.wix.detox.espresso.action.detoxsingletap@e0d4d6b click' action on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Add Invoice" and view has effective visibility <VISIBLE>)
+01-29 08:02:38.310  7096  7201 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+01-29 08:02:38.314  7096  7201 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+01-29 08:02:38.314  7096  7201 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+01-29 08:02:38.314  7096  7201 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+01-29 08:02:38.314  7096  7201 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+01-29 08:02:38.314  7096  7201 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+01-29 08:02:38.315  7096  7201 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+01-29 08:02:38.316  7096  7201 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+01-29 08:02:38.316  7096  7201 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+01-29 08:02:38.325  7096  7103 I com.invoiceapp: Background young concurrent copying GC freed 137654(5181KB) AllocSpace objects, 0(0B) LOS objects, 38% free, 7938KB/12MB, paused 16us,6us total 204.472ms
+01-29 08:02:38.397  7096  7201 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+01-29 08:02:38.397  7096  7201 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+01-29 08:02:38.397  7096  7201 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+01-29 08:02:38.442  7096  7096 W UiControllerImpl: Waiting for: DYNAMIC_TASKS_HAVE_IDLED for 100 iterations.
+01-29 08:02:38.467  7096  7096 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{9c7404f V.E...... .......D 0,0-1080,2088 #b}
+01-29 08:02:38.509  7096  7158 D EGL_emulation: app_time_stats: avg=544.23ms min=13.54ms max=8988.63ms count=17
+01-29 08:02:38.542  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:38.620  7096  7146 I DetoxWSClient: Sending out action 'invokeResult' (ID #6)
+01-29 08:02:38.620  7096  7146 I DetoxDispatcher: Done with action 'invoke'
+01-29 08:02:38.624  7096  7150 D DetoxWSClient: Received action 'invoke' (ID #7, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["InvoiceNumberInput",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.action.ViewActions"},"method":"replaceText","args":["IN1706495521211"]}}]})
+01-29 08:02:38.625  7096  7146 I DetoxDispatcher: Handling action 'invoke' (ID #7)...
+01-29 08:02:38.625  7096  7146 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [InvoiceNumberInput, false]
+01-29 08:02:38.626  7096  7146 D Detox   : class androidx.test.espresso.action.ViewActions, replaceText, [IN1706495521211]
+01-29 08:02:38.626  7096  7146 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "InvoiceNumberInput" and view has effective visibility <VISIBLE>), androidx.test.espresso.action.ReplaceTextAction@d9a8d25]
+01-29 08:02:38.630  7096  7096 I ViewInteraction: Performing 'replace text(IN1706495521211)' action on view (view.getTag() is "InvoiceNumberInput" and view has effective visibility <VISIBLE>)
+01-29 08:02:38.650  7096  7146 I DetoxWSClient: Sending out action 'invokeResult' (ID #7)
+01-29 08:02:38.653  7096  7146 I DetoxDispatcher: Done with action 'invoke'
+01-29 08:02:39.657  7096  7150 D DetoxWSClient: Received action 'invoke' (ID #8, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["InvoiceDateInput",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.action.ViewActions"},"method":"replaceText","args":["2021-01-01"]}}]})
+01-29 08:02:39.658  7096  7146 I DetoxDispatcher: Handling action 'invoke' (ID #8)...
+01-29 08:02:39.659  7096  7146 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [InvoiceDateInput, false]
+01-29 08:02:39.660  7096  7146 D Detox   : class androidx.test.espresso.action.ViewActions, replaceText, [2021-01-01]
+01-29 08:02:39.660  7096  7146 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "InvoiceDateInput" and view has effective visibility <VISIBLE>), androidx.test.espresso.action.ReplaceTextAction@b1b717f]
+01-29 08:02:39.664  7096  7096 I ViewInteraction: Performing 'replace text(2021-01-01)' action on view (view.getTag() is "InvoiceDateInput" and view has effective visibility <VISIBLE>)
+01-29 08:02:39.676  7096  7158 D EGL_emulation: app_time_stats: avg=290.18ms min=2.63ms max=986.65ms count=4
+01-29 08:02:39.680  7096  7146 I DetoxWSClient: Sending out action 'invokeResult' (ID #8)
+01-29 08:02:39.680  7096  7146 I DetoxDispatcher: Done with action 'invoke'
+01-29 08:02:39.881  7096  7337 D TrafficStats: tagSocket(163) with statsTag=0x90000, statsUid=-1
+01-29 08:02:40.685  7096  7150 D DetoxWSClient: Received action 'invoke' (ID #9, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["InvoiceAmountInput",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.action.ViewActions"},"method":"replaceText","args":["1000"]}}]})
+01-29 08:02:40.686  7096  7146 I DetoxDispatcher: Handling action 'invoke' (ID #9)...
+01-29 08:02:40.687  7096  7146 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [InvoiceAmountInput, false]
+01-29 08:02:40.688  7096  7146 D Detox   : class androidx.test.espresso.action.ViewActions, replaceText, [1000]
+01-29 08:02:40.688  7096  7146 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "InvoiceAmountInput" and view has effective visibility <VISIBLE>), androidx.test.espresso.action.ReplaceTextAction@2c24f4e]
+01-29 08:02:40.693  7096  7096 I ViewInteraction: Performing 'replace text(1000)' action on view (view.getTag() is "InvoiceAmountInput" and view has effective visibility <VISIBLE>)
+01-29 08:02:40.698  7096  7146 I DetoxWSClient: Sending out action 'invokeResult' (ID #9)
+01-29 08:02:40.706  7096  7158 D EGL_emulation: app_time_stats: avg=515.15ms min=61.86ms max=968.44ms count=2
+01-29 08:02:40.708  7096  7146 I DetoxDispatcher: Done with action 'invoke'
+01-29 08:02:41.718  7096  7150 D DetoxWSClient: Received action 'invoke' (ID #10, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["InvoiceNoteInput",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.action.ViewActions"},"method":"replaceText","args":["Test invoice IN1706495521211"]}}]})
+01-29 08:02:41.720  7096  7146 I DetoxDispatcher: Handling action 'invoke' (ID #10)...
+01-29 08:02:41.721  7096  7146 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [InvoiceNoteInput, false]
+01-29 08:02:41.722  7096  7146 D Detox   : class androidx.test.espresso.action.ViewActions, replaceText, [Test invoice IN1706495521211]
+01-29 08:02:41.723  7096  7146 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "InvoiceNoteInput" and view has effective visibility <VISIBLE>), androidx.test.espresso.action.ReplaceTextAction@c4692b2]
+01-29 08:02:41.731  7096  7096 I ViewInteraction: Performing 'replace text(Test invoice IN1706495521211)' action on view (view.getTag() is "InvoiceNoteInput" and view has effective visibility <VISIBLE>)
+01-29 08:02:41.750  7096  7158 D EGL_emulation: app_time_stats: avg=521.74ms min=46.91ms max=996.58ms count=2
+01-29 08:02:41.752  7096  7146 I DetoxWSClient: Sending out action 'invokeResult' (ID #10)
+01-29 08:02:41.753  7096  7146 I DetoxDispatcher: Done with action 'invoke'
+01-29 08:02:41.889  7096  7339 D TrafficStats: tagSocket(162) with statsTag=0x90000, statsUid=-1
+01-29 08:02:42.762  7096  7150 D DetoxWSClient: Received action 'invoke' (ID #11, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["AddInvoiceButton",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+01-29 08:02:42.764  7096  7146 I DetoxDispatcher: Handling action 'invoke' (ID #11)...
+01-29 08:02:42.766  7096  7146 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [AddInvoiceButton, false]
+01-29 08:02:42.767  7096  7146 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+01-29 08:02:42.767  7096  7146 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "AddInvoiceButton" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@c457f2d]
+01-29 08:02:42.775  7096  7096 I ViewInteraction: Performing 'com.wix.detox.espresso.action.detoxsingletap@250c62 click' action on view (view.getTag() is "AddInvoiceButton" and view has effective visibility <VISIBLE>)
+01-29 08:02:42.802  7096  7158 D EGL_emulation: app_time_stats: avg=525.91ms min=56.49ms max=995.33ms count=2
+01-29 08:02:43.113  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:43.116  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:43.132  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:43.149  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:43.165  7096  7200 I ReactNativeJS: {
+01-29 08:02:43.165  7096  7200 I ReactNativeJS:   "data": {
+01-29 08:02:43.165  7096  7200 I ReactNativeJS:     "insert_invoices_one": {
+01-29 08:02:43.165  7096  7200 I ReactNativeJS:       "id": "fca61ef0-1374-4ad4-8895-247a5fe5f8eb"
+01-29 08:02:43.165  7096  7200 I ReactNativeJS:     }
+01-29 08:02:43.165  7096  7200 I ReactNativeJS:   }
+01-29 08:02:43.165  7096  7200 I ReactNativeJS: }
+01-29 08:02:43.228  7096  7200 I ReactNativeJS: []
+01-29 08:02:43.267  7096  7096 W UiControllerImpl: Waiting for: DYNAMIC_TASKS_HAVE_IDLED for 100 iterations.
+01-29 08:02:43.305  7096  7096 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{9c7404f V.E...... .......D 0,0-1080,2088 #b}
+01-29 08:02:43.358  7096  7096 W UiControllerImpl: Waiting for: DYNAMIC_TASKS_HAVE_IDLED for 200 iterations.
+01-29 08:02:43.367  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:43.387  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:43.403  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:43.416  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:43.432  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:43.449  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:43.466  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:43.484  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:43.499  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:43.516  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:43.534  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:43.543  7096  7200 I ReactNativeJS: [ { id: 'fca61ef0-1374-4ad4-8895-247a5fe5f8eb',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     number: 'IN1706495521211',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706495521211' },
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:   { id: '63e14753-8eda-41bd-8cff-f117dc5d045a',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     number: 'IN1706161025833',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706161025833' },
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:   { id: '771bbf07-7bc1-4f8e-b529-913fc81f0299',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     number: 'IN1706157688622',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706157688622' },
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:   { id: '478a5c1f-5178-48ea-b89d-0b1455f6246e',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     number: 'IN1706152170117',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706152170117' },
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:   { id: '9be8f85d-727c-41a3-92f6-86d9808c0a0e',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     number: 'IN1706152096463',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706152096463' },
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:   { id: '35126886-2b4a-41ec-9cae-e79085b85df3',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     number: 'IN1706151952684',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706151952684' },
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:   { id: '90931586-90de-4880-95ee-116d05bd3f38',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     number: 'IN1706151803859',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:43.543  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706151803859' } ]
+01-29 08:02:43.552  7096  7200 I ReactNativeJS: [ { id: 'fca61ef0-1374-4ad4-8895-247a5fe5f8eb',
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     number: 'IN1706495521211',
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706495521211' },
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:   { id: '63e14753-8eda-41bd-8cff-f117dc5d045a',
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     number: 'IN1706161025833',
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706161025833' },
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:   { id: '771bbf07-7bc1-4f8e-b529-913fc81f0299',
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     number: 'IN1706157688622',
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706157688622' },
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:   { id: '478a5c1f-5178-48ea-b89d-0b1455f6246e',
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     number: 'IN1706152170117',
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706152170117' },
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:   { id: '9be8f85d-727c-41a3-92f6-86d9808c0a0e',
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     number: 'IN1706152096463',
+01-29 08:02:43.552  7096  7200 I ReactNativeJS:     date: '

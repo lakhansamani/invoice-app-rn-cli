@@ -1,0 +1,623 @@
+08:01:10.749 detox[6258] [90mB[39m node_modules/.bin/detox test --configuration android.emu.debug --record-logs all
+  data: {
+    "id": "eb6558f5-b16b-09b4-6001-4d34aea72f36",
+    "detoxConfig": {
+      "configurationName": "android.emu.debug",
+      "apps": {
+        "default": {
+          "type": "android.apk",
+          "binaryPath": "android/app/build/outputs/apk/debug/app-debug.apk",
+          "testBinaryPath": "custom/path/to/app-debug-androidTest.apk",
+          "build": "cd android && ./gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug",
+          "reversePorts": [
+            8081
+          ]
+        }
+      },
+      "artifacts": {
+        "rootDir": "artifacts/android.emu.debug.2024-01-29 02-31-10Z",
+        "plugins": {
+          "log": {
+            "enabled": true,
+            "keepOnlyFailedTestsArtifacts": false
+          },
+          "screenshot": {
+            "enabled": true,
+            "shouldTakeAutomaticSnapshots": false,
+            "keepOnlyFailedTestsArtifacts": false
+          },
+          "video": {
+            "enabled": false,
+            "keepOnlyFailedTestsArtifacts": false
+          },
+          "instruments": {
+            "enabled": false,
+            "keepOnlyFailedTestsArtifacts": false
+          },
+          "uiHierarchy": {
+            "enabled": false,
+            "keepOnlyFailedTestsArtifacts": false
+          }
+        }
+      },
+      "behavior": {
+        "init": {
+          "keepLockFile": false,
+          "reinstallApp": true,
+          "exposeGlobals": true
+        },
+        "cleanup": {
+          "shutdownDevice": false
+        },
+        "launchApp": "auto"
+      },
+      "cli": {
+        "recordLogs": "all",
+        "configuration": "android.emu.debug",
+        "start": true
+      },
+      "device": {
+        "type": "android.emulator",
+        "device": {
+          "avdName": "Pixel_3a_API_34_extension_level_7_arm64-v8a"
+        }
+      },
+      "logger": {
+        "level": "info",
+        "overrideConsole": true,
+        "options": {
+          "showLoggerName": true,
+          "showPid": true,
+          "showLevel": false,
+          "showMetadata": false,
+          "basepath": "/Users/lakhansamani/forks/training/InvoiceApp/node_modules/detox/src",
+          "prefixers": {},
+          "stringifiers": {}
+        }
+      },
+      "testRunner": {
+        "retries": 0,
+        "forwardEnv": false,
+        "detached": false,
+        "bail": false,
+        "jest": {
+          "setupTimeout": 120000,
+          "teardownTimeout": 30000,
+          "retryAfterCircusRetries": false,
+          "reportWorkerAssign": true
+        },
+        "args": {
+          "$0": "jest",
+          "_": [],
+          "config": "e2e/jest.config.js",
+          "--": []
+        }
+      },
+      "session": {
+        "autoStart": true,
+        "debugSynchronization": 10000
+      }
+    },
+    "detoxIPCServer": "primary-6258",
+    "testResults": [],
+    "testSessionIndex": 0,
+    "workersCount": 0
+  }
+08:01:10.754 detox[6258] [90mi[39m Server path not specified, so defaulting to ipc.config.socketRoot + ipc.config.appspace + ipc.config.id /tmp/detox.primary-6258
+08:01:10.755 detox[6258] [90mi[39m starting server on  /tmp/detox.primary-6258 
+08:01:10.755 detox[6258] [90mi[39m starting TLS server false
+08:01:10.755 detox[6258] [90mi[39m starting server as Unix || Windows Socket
+08:01:10.758 detox[6258] [90mi[39m Detox server listening on localhost:53726...
+08:01:10.762 detox[6258] [90mi[39m Serialized the session state at: /private/var/folders/fy/7q3nrv7x3hz1xyxh55v972yr0000gn/T/eb6558f5-b16b-09b4-6001-4d34aea72f36.detox.json
+08:01:10.763 detox[6258] [90mB[39m jest --config e2e/jest.config.js
+08:01:11.222 detox[6259] [90mi[39m Service path not specified, so defaulting to ipc.config.socketRoot + ipc.config.appspace + id 
+08:01:11.223 detox[6259] [90mi[39m requested connection to  primary-6258 /tmp/detox.primary-6258
+08:01:11.223 detox[6259] [90mi[39m Connecting client on Unix Socket : /tmp/detox.primary-6258
+08:01:11.224 detox[6258] [90mi[39m ## socket connection to server detected ##
+08:01:11.225 detox[6259] [90mi[39m retrying reset
+08:01:11.226 detox[6259] [90mi[39m dispatching event to  primary-6258 /tmp/detox.primary-6258  :  registerContext , { id: 'secondary-6259' }
+08:01:11.227 detox[6258] [90mi[39m received event of :  registerContext { id: 'secondary-6259' }
+08:01:11.228 detox[6258] [90mi[39m dispatching event to socket  :  registerContextDone {
+  testResults: [],
+  testSessionIndex: 0,
+  unsafe_earlyTeardown: undefined
+}
+08:01:11.228 detox[6259] [90mi[39m ## received events ##
+08:01:11.228 detox[6259] [90mi[39m detected event registerContextDone { testResults: [], testSessionIndex: 0 }
+08:01:11.299 detox[6259] [90mB[39m e2e/app.test.js
+08:01:11.306 detox[6259] [90mB[39m set up environment
+08:01:11.306 detox[6259] [90mi[39m dispatching event to  primary-6258 /tmp/detox.primary-6258  :  registerWorker , { workerId: 'w1' }
+08:01:11.307 detox[6258] [90mi[39m received event of :  registerWorker { workerId: 'w1' }
+08:01:11.307 detox[6258] [90mi[39m dispatching event to socket  :  registerWorkerDone { workersCount: 1 }
+08:01:11.307 detox[6258] [90mi[39m broadcasting event to all known sockets listening to  /tmp/detox.primary-6258  :   sessionStateUpdate { workersCount: 1 }
+08:01:11.307 detox[6259] [90mi[39m ## received events ##
+08:01:11.307 detox[6259] [90mi[39m detected event registerWorkerDone { workersCount: 1 }
+08:01:11.406 detox[6259] [90mi[39m ## received events ##
+08:01:11.406 detox[6259] [90mi[39m detected event sessionStateUpdate { workersCount: 1 }
+08:01:11.409 detox[6258] [90mB[39m connection :53726<->:53729
+08:01:11.410 detox[6259] [90mi[39m opened web socket to: ws://localhost:53726
+08:01:11.411 detox[6259] [90mi[39m send message
+  data: {"type":"login","params":{"sessionId":"57a53eb1-d01d-15fc-a018-dc1e6aecf770","role":"tester"},"messageId":0}
+08:01:11.412 detox[6258] [90mi[39m get
+  data: {"type":"login","params":{"sessionId":"57a53eb1-d01d-15fc-a018-dc1e6aecf770","role":"tester"},"messageId":0}
+08:01:11.412 detox[6258] [90mi[39m created session 57a53eb1-d01d-15fc-a018-dc1e6aecf770
+08:01:11.412 detox[6258] [90mi[39m send
+  data: {
+    "type": "loginSuccess",
+    "params": {
+      "testerConnected": true,
+      "appConnected": false
+    },
+    "messageId": 0
+  }
+08:01:11.413 detox[6258] [90mi[39m tester joined session 57a53eb1-d01d-15fc-a018-dc1e6aecf770
+08:01:11.413 detox[6259] [90mi[39m get message
+  data: {"type":"loginSuccess","params":{"testerConnected":true,"appConnected":false},"messageId":0}
+   
+08:01:11.439 detox[6258] [90mi[39m received event of :  allocateDevice {
+  deviceConfig: {
+    type: 'android.emulator',
+    device: { avdName: 'Pixel_3a_API_34_extension_level_7_arm64-v8a' }
+  }
+}
+08:01:11.439 detox[6259] [90mi[39m dispatching event to  primary-6258 /tmp/detox.primary-6258  :  allocateDevice , {
+  deviceConfig: {
+    type: 'android.emulator',
+    device: { avdName: 'Pixel_3a_API_34_extension_level_7_arm64-v8a' }
+  }
+}
+08:01:11.460 detox[6258] [90mB[39m init
+  args: ()
+08:01:11.462 detox[6258] [90mE[39m init
+08:01:11.462 detox[6258] [90mB[39m allocate
+  data: {
+    "type": "android.emulator",
+    "device": {
+      "avdName": "Pixel_3a_API_34_extension_level_7_arm64-v8a"
+    }
+  }
+08:01:11.462 detox[6258] [90mi[39m "/Users/lakhansamani/Library/Android/sdk/emulator/emulator" -list-avds --verbose
+08:01:11.504 detox[6258] [90mi[39m Pixel_3a_API_34_extension_level_7_arm64-v8a
+
+08:01:11.504 detox[6258] [90mi[39m "/Users/lakhansamani/Library/Android/sdk/emulator/emulator" -version 
+08:01:11.736 detox[6258] [90mi[39m INFO    | Storing crashdata in: , detection is enabled for process: 6289
+INFO    | Duplicate loglines will be removed, if you wish to see each individual line launch with the -log-nofilter flag.
+Android emulator version 33.1.24.0 (build_id 11237101) (CL:N/A)
+Copyright (C) 2006-2017 The Android Open Source Project and many others.
+This program is a derivative of the QEMU CPU emulator (www.qemu.org).
+
+  This software is licensed under the terms of the GNU General Public
+  License version 2, as published by the Free Software Foundation, and
+  may be copied, distributed, and modified under those terms.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+
+08:01:11.736 detox[6258] [90mi[39m Detected emulator binary version { major: 33, minor: 1, patch: 24, toString: [Function: toString] }
+08:01:11.736 detox[6258] [90mi[39m "/Users/lakhansamani/Library/Android/sdk/platform-tools/adb"  devices
+08:01:11.748 detox[6258] [90mi[39m List of devices attached
+emulator-5554	device
+
+
+08:01:11.748 detox[6258] [90mi[39m port: 5554, host: localhost
+08:01:11.758 detox[6258] [90mi[39m Found a matching & free device emulator-5554
+08:01:11.758 detox[6258] [90mi[39m settled on emulator-5554 (Pixel_3a_API_34_extension_level_7_arm64-v8a)
+  data: {
+    "id": "emulator-5554",
+    "adbName": "emulator-5554",
+    "name": "emulator-5554 (Pixel_3a_API_34_extension_level_7_arm64-v8a)"
+  }
+08:01:11.758 detox[6258] [90mE[39m allocate
+08:01:11.758 detox[6258] [90mB[39m post-allocate: emulator-5554
+  data: {
+    "id": "emulator-5554",
+    "adbName": "emulator-5554",
+    "name": "emulator-5554 (Pixel_3a_API_34_extension_level_7_arm64-v8a)"
+  }
+08:01:11.758 detox[6258] [90mi[39m "/Users/lakhansamani/Library/Android/sdk/platform-tools/adb" -s emulator-5554 shell "getprop dev.bootcomplete"
+08:01:11.826 detox[6258] [90mi[39m 1
+
+08:01:11.826 detox[6258] [90mi[39m "/Users/lakhansamani/Library/Android/sdk/platform-tools/adb" -s emulator-5554 shell "getprop ro.build.version.sdk"
+08:01:11.875 detox[6258] [90mi[39m 34
+
+08:01:11.875 detox[6258] [90mi[39m "/Users/lakhansamani/Library/Android/sdk/platform-tools/adb" -s emulator-5554 shell "settings put global animator_duration_scale 0"
+08:01:11.984 detox[6258] [90mi[39m 
+08:01:11.984 detox[6258] [90mi[39m "/Users/lakhansamani/Library/Android/sdk/platform-tools/adb" -s emulator-5554 shell "settings put global window_animation_scale 0"
+08:01:12.041 detox[6258] [90mi[39m 
+08:01:12.041 detox[6258] [90mi[39m "/Users/lakhansamani/Library/Android/sdk/platform-tools/adb" -s emulator-5554 shell "settings put global transition_animation_scale 0"
+08:01:12.119 detox[6258] [90mi[39m 
+08:01:12.119 detox[6258] [90mi[39m "/Users/lakhansamani/Library/Android/sdk/platform-tools/adb" -s emulator-5554 shell "dumpsys power | grep \"^[ ]*m[UW].*=\""
+08:01:12.398 detox[6258] [90mi[39m   mWakefulness=Awake
+  mWakefulnessChanging=false
+  mWakeLockSummary=0x0
+  mWakeUpWhenPluggedOrUnpluggedConfig=false
+  mWakeUpWhenPluggedOrUnpluggedInTheaterModeConfig=false
+  mUserActivityTimeoutOverrideFromWindowManager=-1
+  mUserInactiveOverrideFromWindowManager=false
+  mUserId=0
+  mWakeLockSummary=0x0
+  mUserInteractionBackoffMillis=60000
+
+08:01:12.398 detox[6258] [90mE[39m post-allocate: emulator-5554
+08:01:12.399 detox[6258] [90mi[39m dispatching event to socket  :  allocateDeviceDone {
+  deviceCookie: {
+    id: 'emulator-5554',
+    adbName: 'emulator-5554',
+    name: 'emulator-5554 (Pixel_3a_API_34_extension_level_7_arm64-v8a)'
+  }
+}
+08:01:12.399 detox[6259] [90mi[39m ## received events ##
+08:01:12.400 detox[6259] [90mi[39m detected event allocateDeviceDone {
+  deviceCookie: {
+    id: 'emulator-5554',
+    adbName: 'emulator-5554',
+    name: 'emulator-5554 (Pixel_3a_API_34_extension_level_7_arm64-v8a)'
+  }
+}
+08:01:12.428 detox[6259] [90mB[39m onBootDevice
+  args: ({"deviceId":"emulator-5554"})
+08:01:12.428 detox[6259] [90mE[39m onBootDevice
+08:01:12.429 detox[6259] [90mB[39m installUtilBinaries
+  args: ()
+08:01:12.429 detox[6259] [90mE[39m installUtilBinaries
+08:01:12.430 detox[6259] [90mB[39m selectApp
+  args: ("default")
+08:01:12.432 detox[6259] [90mi[39m "/Users/lakhansamani/Library/Android/sdk/build-tools/34.0.0/aapt" dump badging "/Users/lakhansamani/forks/training/InvoiceApp/android/app/build/outputs/apk/debug/app-debug.apk"
+08:01:12.506 detox[6259] [90mi[39m package: name='com.invoiceapp' versionCode='1' versionName='1.0' platformBuildVersionName='14' platformBuildVersionCode='34' compileSdkVersion='34' compileSdkVersionCodename='14'
+sdkVersion:'21'
+targetSdkVersion:'34'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.SYSTEM_ALERT_WINDOW'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+uses-permission: name='com.invoiceapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'
+application-label:'InvoiceApp'
+application-label-af:'InvoiceApp'
+application-label-am:'InvoiceApp'
+application-label-ar:'InvoiceApp'
+application-label-as:'InvoiceApp'
+application-label-az:'InvoiceApp'
+application-label-be:'InvoiceApp'
+application-label-bg:'InvoiceApp'
+application-label-bn:'InvoiceApp'
+application-label-bs:'InvoiceApp'
+application-label-ca:'InvoiceApp'
+application-label-cs:'InvoiceApp'
+application-label-da:'InvoiceApp'
+application-label-de:'InvoiceApp'
+application-label-el:'InvoiceApp'
+application-label-en-AU:'InvoiceApp'
+application-label-en-CA:'InvoiceApp'
+application-label-en-GB:'InvoiceApp'
+application-label-en-IN:'InvoiceApp'
+application-label-en-XC:'InvoiceApp'
+application-label-es:'InvoiceApp'
+application-label-es-419:'InvoiceApp'
+application-label-es-ES:'InvoiceApp'
+application-label-es-US:'InvoiceApp'
+application-label-et:'InvoiceApp'
+application-label-eu:'InvoiceApp'
+application-label-fa:'InvoiceApp'
+application-label-fi:'InvoiceApp'
+application-label-fr:'InvoiceApp'
+application-label-fr-CA:'InvoiceApp'
+application-label-gl:'InvoiceApp'
+application-label-gu:'InvoiceApp'
+application-label-ha:'InvoiceApp'
+application-label-hi:'InvoiceApp'
+application-label-hr:'InvoiceApp'
+application-label-hu:'InvoiceApp'
+application-label-hy:'InvoiceApp'
+application-label-in:'InvoiceApp'
+application-label-is:'InvoiceApp'
+application-label-it:'InvoiceApp'
+application-label-iw:'InvoiceApp'
+application-label-ja:'InvoiceApp'
+application-label-jv:'InvoiceApp'
+application-label-ka:'InvoiceApp'
+application-label-kk:'InvoiceApp'
+application-label-km:'InvoiceApp'
+application-label-kn:'InvoiceApp'
+application-label-ko:'InvoiceApp'
+application-label-ku:'InvoiceApp'
+application-label-ky:'InvoiceApp'
+application-label-lo:'InvoiceApp'
+application-label-lt:'InvoiceApp'
+application-label-lv:'InvoiceApp'
+application-label-mk:'InvoiceApp'
+application-label-ml:'InvoiceApp'
+application-label-mn:'InvoiceApp'
+application-label-mr:'InvoiceApp'
+application-label-ms:'InvoiceApp'
+application-label-my:'InvoiceApp'
+application-label-nb:'InvoiceApp'
+application-label-ne:'InvoiceApp'
+application-label-nl:'InvoiceApp'
+application-label-or:'InvoiceApp'
+application-label-pa:'InvoiceApp'
+application-label-pl:'InvoiceApp'
+application-label-ps:'InvoiceApp'
+application-label-pt:'InvoiceApp'
+application-label-pt-BR:'InvoiceApp'
+application-label-pt-PT:'InvoiceApp'
+application-label-ro:'InvoiceApp'
+application-label-ru:'InvoiceApp'
+application-label-si:'InvoiceApp'
+application-label-sk:'InvoiceApp'
+application-label-sl:'InvoiceApp'
+application-label-so:'InvoiceApp'
+application-label-sq:'InvoiceApp'
+application-label-sr:'InvoiceApp'
+application-label-sr-Latn:'InvoiceApp'
+application-label-sv:'InvoiceApp'
+application-label-sw:'InvoiceApp'
+application-label-ta:'InvoiceApp'
+application-label-te:'InvoiceApp'
+application-label-tg:'InvoiceApp'
+application-label-th:'InvoiceApp'
+application-label-tl:'InvoiceApp'
+application-label-tr:'InvoiceApp'
+application-label-uk:'InvoiceApp'
+application-label-ur:'InvoiceApp'
+application-label-uz:'InvoiceApp'
+application-label-vi:'InvoiceApp'
+application-label-zh-CN:'InvoiceApp'
+application-label-zh-HK:'InvoiceApp'
+application-label-zh-TW:'InvoiceApp'
+application-label-zu:'InvoiceApp'
+application-icon-160:'res/mipmap-mdpi-v4/ic_launcher.png'
+application-icon-240:'res/mipmap-hdpi-v4/ic_launcher.png'
+application-icon-320:'res/mipmap-xhdpi-v4/ic_launcher.png'
+application-icon-480:'res/mipmap-xxhdpi-v4/ic_launcher.png'
+application-icon-640:'res/mipmap-xxxhdpi-v4/ic_launcher.png'
+application: label='InvoiceApp' icon='res/mipmap-mdpi-v4/ic_launcher.png'
+application-debuggable
+launchable-activity: name='com.invoiceapp.MainActivity'  label='InvoiceApp' icon=''
+feature-group: label=''
+  uses-feature: name='android.hardware.faketouch'
+  uses-implied-feature: name='android.hardware.faketouch' reason='default feature for all apps'
+  uses-feature: name='android.hardware.wifi'
+  uses-implied-feature: name='android.hardware.wifi' reason='requested android.permission.ACCESS_WIFI_STATE permission'
+main
+other-activities
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales: '--_--' 'af' 'am' 'ar' 'as' 'az' 'be' 'bg' 'bn' 'bs' 'ca' 'cs' 'da' 'de' 'el' 'en-AU' 'en-CA' 'en-GB' 'en-IN' 'en-XC' 'es' 'es-419' 'es-ES' 'es-US' 'et' 'eu' 'fa' 'fi' 'fr' 'fr-CA' 'gl' 'gu' 'ha' 'hi' 'hr' 'hu' 'hy' 'in' 'is' 'it' 'iw' 'ja' 'jv' 'ka' 'kk' 'km' 'kn' 'ko' 'ku' 'ky' 'lo' 'lt' 'lv' 'mk' 'ml' 'mn' 'mr' 'ms' 'my' 'nb' 'ne' 'nl' 'or' 'pa' 'pl' 'ps' 'pt' 'pt-BR' 'pt-PT' 'ro' 'ru' 'si' 'sk' 'sl' 'so' 'sq' 'sr' 'sr-Latn' 'sv' 'sw' 'ta' 'te' 'tg' 'th' 'tl' 'tr' 'uk' 'ur' 'uz' 'vi' 'zh-CN' 'zh-HK' 'zh-TW' 'zu'
+densities: '160' '240' '320' '480' '640'
+native-code: 'arm64-v8a' 'armeabi-v7a' 'x86' 'x86_64'
+
+08:01:12.506 detox[6259] [90mE[39m selectApp
+08:01:12.506 detox[6259] [90mB[39m uninstallApp
+  args: ()
+08:01:12.506 detox[6259] [90mB[39m onBeforeUninstallApp
+  args: ({"deviceId":"emulator-5554","bundleId":"com.invoiceapp"})
+08:01:12.506 detox[6259] [90mE[39m onBeforeUninstallApp
+08:01:12.506 detox[6259] [90mi[39m "/Users/lakhansamani/Library/Android/sdk/platform-tools/adb" -s emulator-5554 shell "pm list packages com.invoiceapp"
+08:01:12.564 detox[6259] [90mi[39m package:com.invoiceapp.test
+package:com.invoiceapp
+
+08:01:12.564 detox[6259] [90mi[39m "/Users/lakhansamani/Library/Android/sdk/platform-tools/adb" -s emulator-5554 uninstall com.invoiceapp
+08:01:14.419 detox[6259] [90mi[39m Success
+
+08:01:14.419 detox[6259] [90mi[39m "/Users/lakhansamani/Library/Android/sdk/platform-tools/adb" -s emulator-5554 shell "pm list packages com.invoiceapp.test"
+08:01:14.589 detox[6259] [90mi[39m package:com.invoiceapp.test
+
+08:01:14.590 detox[6259] [90mi[39m "/Users/lakhansamani/Library/Android/sdk/platform-tools/adb" -s emulator-5554 uninstall com.invoiceapp.test
+08:01:15.515 detox[6259] [90mi[39m Success
+
+08:01:15.516 detox[6259] [90mE[39m uninstallApp
+08:01:15.516 detox[6259] [90mB[39m selectApp
+  args: ("default")
+08:01:15.517 detox[6259] [90mB[39m terminateApp
+  args: ()
+08:01:15.517 detox[6259] [90mB[39m onBeforeTerminateApp
+  args: ({"deviceId":"emulator-5554","bundleId":"com.invoiceapp"})
+08:01:15.517 detox[6259] [90mE[39m onBeforeTerminateApp
+08:01:15.517 detox[6259] [90mi[39m "/Users/lakhansamani/Library/Android/sdk/platform-tools/adb" -s emulator-5554 shell "am force-stop com.invoiceapp"
+08:01:15.669 detox[6259] [90mi[39m 
+08:01:15.670 detox[6259] [90mB[39m onTerminateApp
+  args: ({"deviceId":"emulator-5554","bundleId":"com.invoiceapp"})
+08:01:15.671 detox[6259] [90mE[39m onTerminateApp
+08:01:15.671 detox[6259] [90mE[39m terminateApp
+08:01:15.671 detox[6259] [90mE[39m selectApp
+08:01:15.671 detox[6259] [90mB[39m installApp
+  args: ()
+08:01:15.672 detox[6259] [90mE[39m installApp
+  error: Failed to find the app binary at:
+  /Users/lakhansamani/forks/training/InvoiceApp/custom/path/to/app-debug-androidTest.apk
+  
+  HINT: Make sure that:
+  1. You built the app before running tests:
+    detox build -c <your-configuration-name>
+  2. The app binary can be found at the given path.
+08:01:15.673 detox[6259] [90mE[39m set up environment
+  error: Failed to find the app binary at:
+  /Users/lakhansamani/forks/training/InvoiceApp/custom/path/to/app-debug-androidTest.apk
+  
+  HINT: Make sure that:
+  1. You built the app before running tests:
+    detox build -c <your-configuration-name>
+  2. The app binary can be found at the given path.
+08:01:15.674 detox[6259] [90mB[39m tear down environment
+08:01:15.675 detox[6259] [90mB[39m onBeforeCleanup
+  args: ()
+08:01:15.680 detox[6259] [90mi[39m saving FileArtifact to: artifacts/android.emu.debug.2024-01-29 02-31-10Z/detox_pid_6259.json.log { append: true }
+08:01:15.680 detox[6259] [90mi[39m saving FileArtifact to: artifacts/android.emu.debug.2024-01-29 02-31-10Z/detox_pid_6259.log { append: true }
+08:01:15.680 detox[6259] [90mE[39m onBeforeCleanup
+08:01:15.683 detox[6258] [90mi[39m tester exited session 57a53eb1-d01d-15fc-a018-dc1e6aecf770
+08:01:15.683 detox[6258] [90mE[39m connection :53726<->:53729
+08:01:15.684 detox[6258] [90mi[39m received event of :  deallocateDevice {
+  deviceCookie: {
+    id: 'emulator-5554',
+    adbName: 'emulator-5554',
+    name: 'emulator-5554 (Pixel_3a_API_34_extension_level_7_arm64-v8a)'
+  }
+}
+08:01:15.684 detox[6258] [90mB[39m free: emulator-5554
+  data: {}
+08:01:15.684 detox[6259] [90mi[39m dispatching event to  primary-6258 /tmp/detox.primary-6258  :  deallocateDevice , {
+  deviceCookie: {
+    id: 'emulator-5554',
+    adbName: 'emulator-5554',
+    name: 'emulator-5554 (Pixel_3a_API_34_extension_level_7_arm64-v8a)'
+  }
+}
+08:01:15.686 detox[6258] [90mE[39m free: emulator-5554
+08:01:15.686 detox[6258] [90mi[39m dispatching event to socket  :  deallocateDeviceDone {}
+08:01:15.686 detox[6259] [90mi[39m ## received events ##
+08:01:15.686 detox[6259] [90mi[39m detected event deallocateDeviceDone {}
+08:01:15.687 detox[6259] [90mE[39m tear down environment
+08:01:15.687 detox[6259] [90mE[39m e2e/app.test.js
+08:01:15.706 detox[6259] [90mi[39m dispatching event to  primary-6258 /tmp/detox.primary-6258  :  reportTestResults , {
+  testResults: [
+    {
+      success: false,
+      testFilePath: '/Users/lakhansamani/forks/training/InvoiceApp/e2e/app.test.js',
+      testExecError: {
+        name: 'DetoxRuntimeError',
+        message: 'Failed to find the app binary at:\n' +
+          '/Users/lakhansamani/forks/training/InvoiceApp/custom/path/to/app-debug-androidTest.apk\n' +
+          '\n' +
+          'HINT: Make sure that:\n' +
+          '1. You built the app before running tests:\n' +
+          '  detox build -c <your-configuration-name>\n' +
+          '2. The app binary can be found at the given path.',
+        stack: 'Failed to find the app binary at:\n' +
+          '/Users/lakhansamani/forks/training/InvoiceApp/custom/path/to/app-debug-androidTest.apk\n' +
+          '\n' +
+          'HINT: Make sure that:\n' +
+          '1. You built the app before running tests:\n' +
+          '  detox build -c <your-configuration-name>\n' +
+          '2. The app binary can be found at the given path.\n' +
+          '    at _reinstallAppsOnDevice.next (<anonymous>)\n' +
+          '    at getNextResult (/Users/lakhansamani/forks/training/InvoiceApp/node_modules/caf/src/caf.js:253:25)'
+      },
+      isPermanentFailure: false
+    }
+  ]
+}
+08:01:15.707 detox[6258] [90mi[39m received event of :  reportTestResults {
+  testResults: [
+    {
+      success: false,
+      testFilePath: '/Users/lakhansamani/forks/training/InvoiceApp/e2e/app.test.js',
+      testExecError: {
+        name: 'DetoxRuntimeError',
+        message: 'Failed to find the app binary at:\n' +
+          '/Users/lakhansamani/forks/training/InvoiceApp/custom/path/to/app-debug-androidTest.apk\n' +
+          '\n' +
+          'HINT: Make sure that:\n' +
+          '1. You built the app before running tests:\n' +
+          '  detox build -c <your-configuration-name>\n' +
+          '2. The app binary can be found at the given path.',
+        stack: 'Failed to find the app binary at:\n' +
+          '/Users/lakhansamani/forks/training/InvoiceApp/custom/path/to/app-debug-androidTest.apk\n' +
+          '\n' +
+          'HINT: Make sure that:\n' +
+          '1. You built the app before running tests:\n' +
+          '  detox build -c <your-configuration-name>\n' +
+          '2. The app binary can be found at the given path.\n' +
+          '    at _reinstallAppsOnDevice.next (<anonymous>)\n' +
+          '    at getNextResult (/Users/lakhansamani/forks/training/InvoiceApp/node_modules/caf/src/caf.js:253:25)'
+      },
+      isPermanentFailure: false
+    }
+  ]
+}
+08:01:15.707 detox[6258] [90mi[39m dispatching event to socket  :  reportTestResultsDone {
+  testResults: [
+    {
+      success: false,
+      testFilePath: '/Users/lakhansamani/forks/training/InvoiceApp/e2e/app.test.js',
+      testExecError: {
+        name: 'DetoxRuntimeError',
+        message: 'Failed to find the app binary at:\n' +
+          '/Users/lakhansamani/forks/training/InvoiceApp/custom/path/to/app-debug-androidTest.apk\n' +
+          '\n' +
+          'HINT: Make sure that:\n' +
+          '1. You built the app before running tests:\n' +
+          '  detox build -c <your-configuration-name>\n' +
+          '2. The app binary can be found at the given path.',
+        stack: 'Failed to find the app binary at:\n' +
+          '/Users/lakhansamani/forks/training/InvoiceApp/custom/path/to/app-debug-androidTest.apk\n' +
+          '\n' +
+          'HINT: Make sure that:\n' +
+          '1. You built the app before running tests:\n' +
+          '  detox build -c <your-configuration-name>\n' +
+          '2. The app binary can be found at the given path.\n' +
+          '    at _reinstallAppsOnDevice.next (<anonymous>)\n' +
+          '    at getNextResult (/Users/lakhansamani/forks/training/InvoiceApp/node_modules/caf/src/caf.js:253:25)'
+      },
+      isPermanentFailure: false
+    }
+  ]
+}
+08:01:15.707 detox[6258] [90mi[39m broadcasting event to all known sockets listening to  /tmp/detox.primary-6258  :   sessionStateUpdate {
+  testResults: [
+    {
+      success: false,
+      testFilePath: '/Users/lakhansamani/forks/training/InvoiceApp/e2e/app.test.js',
+      testExecError: {
+        name: 'DetoxRuntimeError',
+        message: 'Failed to find the app binary at:\n' +
+          '/Users/lakhansamani/forks/training/InvoiceApp/custom/path/to/app-debug-androidTest.apk\n' +
+          '\n' +
+          'HINT: Make sure that:\n' +
+          '1. You built the app before running tests:\n' +
+          '  detox build -c <your-configuration-name>\n' +
+          '2. The app binary can be found at the given path.',
+        stack: 'Failed to find the app binary at:\n' +
+          '/Users/lakhansamani/forks/training/InvoiceApp/custom/path/to/app-debug-androidTest.apk\n' +
+          '\n' +
+          'HINT: Make sure that:\n' +
+          '1. You built the app before running tests:\n' +
+          '  detox build -c <your-configuration-name>\n' +
+          '2. The app binary can be found at the given path.\n' +
+          '    at _reinstallAppsOnDevice.next (<anonymous>)\n' +
+          '    at getNextResult (/Users/lakhansamani/forks/training/InvoiceApp/node_modules/caf/src/caf.js:253:25)'
+      },
+      isPermanentFailure: false
+    }
+  ]
+}
+08:01:15.707 detox[6259] [90mi[39m ## received events ##
+08:01:15.707 detox[6259] [90mi[39m detected event reportTestResultsDone {
+  testResults: [
+    {
+      success: false,
+      testFilePath: '/Users/lakhansamani/forks/training/InvoiceApp/e2e/app.test.js',
+      testExecError: {
+        name: 'DetoxRuntimeError',
+        message: 'Failed to find the app binary at:\n' +
+          '/Users/lakhansamani/forks/training/InvoiceApp/custom/path/to/app-debug-androidTest.apk\n' +
+          '\n' +
+          'HINT: Make sure that:\n' +
+          '1. You built the app before running tests:\n' +
+          '  detox build -c <your-configuration-name>\n' +
+          '2. The app binary can be found at the given path.',
+        stack: 'Failed to find the app binary at:\n' +
+          '/Users/lakhansamani/forks/training/InvoiceApp/custom/path/to/app-debug-androidTest.apk\n' +
+          '\n' +
+          'HINT: Make sure that:\n' +
+          '1. You built the app before running tests:\n' +
+          '  detox build -c <your-configuration-name>\n' +
+          '2. The app binary can be found at the given path.\n' +
+          '    at _reinstallAppsOnDevice.next (<anonymous>)\n' +
+          '    at getNextResult (/Users/lakhansamani/forks/training/InvoiceApp/node_modules/caf/src/caf.js:253:25)'
+      },
+      isPermanentFailure: false
+    }
+  ]
+}
+08:01:15.709 detox[6258] [90mi[39m socket disconnected secondary-6259
+08:01:15.709 detox[6259] [90mi[39m connection closed primary-6258 /tmp/detox.primary-6258 0 tries remaining of 0
+08:01:15.709 detox[6259] [90mi[39m secondary-6259 exceeded connection rety amount of  or stopRetrying flag set.
+08:01:15.816 detox[6258] [90mE[39m Command failed with exit code = 1:
+jest --config e2e/jest.config.js
+08:01:15.817 detox[6258] [90mB[39m cleanup
+  args: ()
+08:01:15.818 detox[6258] [90mE[39m cleanup
+08:01:15.819 detox[6258] [90mi[39m Detox server has been closed gracefully
+08:01:15.820 detox[6258] [90mE[39m node_modules/.bin/detox test --configuration android.emu.debug --record-logs all

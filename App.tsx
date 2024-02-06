@@ -1,118 +1,47 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import React from 'react';
-import type {PropsWithChildren} from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+// import {useEffect} from 'react';
+// import {NativeModules} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import {GluestackUIProvider} from '@gluestack-ui/themed';
+import {config} from '@gluestack-ui/config'; // Optional if you want to use default theme
+import {StripeProvider} from '@stripe/stripe-react-native';
+import 'react-native-gesture-handler';
+import {PubNubProvider} from 'pubnub-react';
+import PubNub from 'pubnub';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
-
-function Section({children, title}: SectionProps): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-  return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
-  );
-}
-
-function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
-  return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
-  );
-}
-
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
+const pubnub = new PubNub({
+  publishKey: 'pub-c-c01a330b-982c-42a7-a452-6f68c7f60268',
+  subscribeKey: 'sub-c-dc173d48-471e-4b62-a9cd-4332031592bd',
+  uuid: Date.now().toString(),
 });
 
-export default App;
+// TODO : Remove while using ios
+// const {GreetingModule} = NativeModules;
+
+import {AuthProvider} from './src/context/auth';
+import {Tabs} from './src/routes/Tabs';
+
+export default function App() {
+  // useEffect(() => {
+  //   // TODO: Remove while using ios
+  //   const res = GreetingModule.greetHuman('Lakhan', 'welcome to Gluestack');
+  //   console.log(res);
+  // }, []);
+  return (
+    <PubNubProvider client={pubnub}>
+      <NavigationContainer>
+        <GluestackUIProvider config={config}>
+          <StripeProvider
+            publishableKey="pk_test_51OgcQ6IDnGcng56m2IjZDqgn5VJdBLtTCbXUu9WK4AA0wlwY62GuYuQ8g9Kjudk8hXFSKTpM0tJhYlMzT44eCoCn00LgGGcE5A"
+            urlScheme="com.invoiceapp"
+            merchantIdentifier="merchant.com.invoiceapp" // required for Apple Pay
+          >
+            <AuthProvider>
+              <Tabs />
+            </AuthProvider>
+          </StripeProvider>
+        </GluestackUIProvider>
+      </NavigationContainer>
+    </PubNubProvider>
+  );
+}

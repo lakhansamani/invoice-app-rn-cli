@@ -1,0 +1,197 @@
+--------- beginning of main
+01-29 08:02:23.045  7096  7096 D AutofillManager: notifyViewEnteredForFillDialog:1073741825
+01-29 08:02:23.047  7096  7096 D AutofillManager: notifyViewEnteredForFillDialog:1073741826
+01-29 08:02:23.047  7096  7096 D AutofillManager: Triggering pre-emptive request for fill dialog.
+01-29 08:02:23.073  7096  7096 D CompatibilityChangeReporter: Compat change id reported: 163400105; UID 10218; state: ENABLED
+01-29 08:02:23.074  7096  7096 I AssistStructure: Flattened final assist data: 2164 bytes, containing 1 windows, 12 views
+01-29 08:02:23.114  7096  7096 I Detox   : Wait is over: App is now idle!
+01-29 08:02:23.114  7096  7146 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+01-29 08:02:23.115  7096  7146 I DetoxDispatcher: Done with action 'isReady'
+01-29 08:02:23.117  7096  7147 W com.invoiceapp: Long monitor contention with owner Instr: androidx.test.runner.AndroidJUnitRunner (7129) at void com.wix.detox.DetoxMain.launchActivityOnCue(android.content.Context, com.wix.detox.ActivityLaunchHelper)(DetoxMain.kt:54) waiters=1 in void com.wix.detox.DetoxMain$setupActionHandlers$SynchronizedActionHandler.handle(java.lang.String, long) for 9.270s
+01-29 08:02:23.122  7096  7147 I DetoxWSClient: Sending out action 'currentStatusResult' (ID #1)
+01-29 08:02:23.122  7096  7147 I DetoxDispatcher: Done with action 'currentStatus'
+01-29 08:02:23.186  7096  7150 D DetoxWSClient: Received action 'invoke' (ID #2, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["EmailInput",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"typeText","args":["test@gmail.com"]}}]})
+01-29 08:02:23.187  7096  7146 I DetoxDispatcher: Handling action 'invoke' (ID #2)...
+01-29 08:02:23.190  7096  7146 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [EmailInput, false]
+01-29 08:02:23.193  7096  7146 D Detox   : class com.wix.detox.espresso.DetoxViewActions, typeText, [test@gmail.com]
+01-29 08:02:23.197  7096  7146 W com.invoiceapp: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (unsupported, reflection, allowed)
+01-29 08:02:23.199  7096  7146 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "EmailInput" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.DetoxTypeTextAction@76b3e43]
+01-29 08:02:23.201  7096  7146 D CompatibilityChangeReporter: Compat change id reported: 247079863; UID 10218; state: ENABLED
+01-29 08:02:23.204  7096  7096 W com.invoiceapp: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (unsupported, reflection, allowed)
+01-29 08:02:23.207  7096  7096 W com.invoiceapp: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+01-29 08:02:23.207  7096  7096 W com.invoiceapp: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+01-29 08:02:23.208  7096  7096 I ViewInteraction: Performing 'Click to focus & type text (test@gmail.com)' action on view (view.getTag() is "EmailInput" and view has effective visibility <VISIBLE>)
+01-29 08:02:23.248  7096  7096 D AutofillManager: notifyViewEnteredForFillDialog:1073741825
+01-29 08:02:23.299  7096  7096 I ImeTracker: com.invoiceapp:d980410f: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+01-29 08:02:23.305  7096  7096 D InputMethodManager: showSoftInput() view=com.facebook.react.views.textinput.ReactEditText{a578e1d VFED..CL. .F.P..ID 3,3-679,107 #23 aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+01-29 08:02:23.358  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:23.662  7096  7096 D InsetsController: show(ime(), fromIme=true)
+01-29 08:02:23.689  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:23.746  7096  7096 I ImeTracker: com.invoiceapp:d980410f: onShown
+01-29 08:02:23.756  7096  7247 D TrafficStats: tagSocket(183) with statsTag=0x90000, statsUid=-1
+01-29 08:02:23.809  7096  7096 D UiControllerImpl: Injecting string: "test@gmail.com"
+01-29 08:02:23.874  7096  7158 D EGL_emulation: app_time_stats: avg=1794.31ms min=8.83ms max=18691.50ms count=11
+01-29 08:02:24.296  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:24.365  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:24.445  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:24.453  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:24.547  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:24.608  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:24.697  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:24.746  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:24.754  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:24.813  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:24.821  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:24.880  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:24.886  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:24.889  7096  7158 D EGL_emulation: app_time_stats: avg=42.24ms min=18.06ms max=105.30ms count=24
+01-29 08:02:24.959  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:25.012  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:25.021  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:25.091  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:25.102  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:25.124  7096  7146 I DetoxWSClient: Sending out action 'invokeResult' (ID #2)
+01-29 08:02:25.124  7096  7146 I DetoxDispatcher: Done with action 'invoke'
+01-29 08:02:25.127  7096  7150 D DetoxWSClient: Received action 'invoke' (ID #3, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["PasswordInput",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"typeText","args":["Test@123#"]}}]})
+01-29 08:02:25.128  7096  7146 I DetoxDispatcher: Handling action 'invoke' (ID #3)...
+01-29 08:02:25.128  7096  7146 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [PasswordInput, false]
+01-29 08:02:25.128  7096  7146 D Detox   : class com.wix.detox.espresso.DetoxViewActions, typeText, [Test@123#]
+01-29 08:02:25.128  7096  7146 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "PasswordInput" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.DetoxTypeTextAction@1c57dfa]
+01-29 08:02:25.131  7096  7096 I ViewInteraction: Performing 'Click to focus & type text (Test@123#)' action on view (view.getTag() is "PasswordInput" and view has effective visibility <VISIBLE>)
+01-29 08:02:25.164  7096  7096 D AutofillManager: notifyViewEnteredForFillDialog:1073741826
+01-29 08:02:25.164  7096  7096 D AutofillManager: Triggering pre-emptive request for fill dialog.
+01-29 08:02:25.172  7096  7096 I AssistStructure: Flattened final assist data: 2188 bytes, containing 1 windows, 12 views
+01-29 08:02:25.174  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:25.185  7096  7096 I ImeTracker: com.invoiceapp:7f7da6b7: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+01-29 08:02:25.197  7096  7096 D InputMethodManager: showSoftInput() view=com.facebook.react.views.textinput.ReactEditText{3bc9bde VFED..CL. .F.P..ID 3,3-679,107 #37 aid=1073741826} flags=0 reason=SHOW_SOFT_INPUT
+01-29 08:02:25.208  7096  7096 I AssistStructure: Flattened final assist data: 2188 bytes, containing 1 windows, 12 views
+01-29 08:02:25.228  7096  7096 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@107931054 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@ddd7fc6
+01-29 08:02:25.254  7096  7096 D InsetsController: show(ime(), fromIme=true)
+01-29 08:02:25.254  7096  7096 I ImeTracker: com.invoiceapp:b472eba4: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+01-29 08:02:25.254  7096  7096 D InsetsController: show(ime(), fromIme=true)
+01-29 08:02:25.254  7096  7096 I ImeTracker: com.invoiceapp:7f7da6b7: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+01-29 08:02:25.339  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:25.729  7096  7096 D UiControllerImpl: Injecting string: "Test@123#"
+01-29 08:02:25.807  7096  7260 D TrafficStats: tagSocket(142) with statsTag=0x90000, statsUid=-1
+01-29 08:02:25.880  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:25.905  7096  7158 D EGL_emulation: app_time_stats: avg=56.47ms min=14.19ms max=351.19ms count=18
+01-29 08:02:25.929  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:25.979  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:26.113  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:26.162  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:26.212  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:26.303  7096  7146 I DetoxWSClient: Sending out action 'invokeResult' (ID #3)
+01-29 08:02:26.303  7096  7146 I DetoxDispatcher: Done with action 'invoke'
+01-29 08:02:26.306  7096  7150 D DetoxWSClient: Received action 'invoke' (ID #4, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["LoginButton",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+01-29 08:02:26.306  7096  7146 I DetoxDispatcher: Handling action 'invoke' (ID #4)...
+01-29 08:02:26.306  7096  7146 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [LoginButton, false]
+01-29 08:02:26.307  7096  7146 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+01-29 08:02:26.307  7096  7146 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "LoginButton" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@e5dbf30]
+01-29 08:02:26.309  7096  7096 I ViewInteraction: Performing 'com.wix.detox.espresso.action.detoxsingletap@d4b37a9 click' action on view (view.getTag() is "LoginButton" and view has effective visibility <VISIBLE>)
+01-29 08:02:26.412  7096  7263 D TrafficStats: tagSocket(157) with statsTag=0xffffffff, statsUid=-1
+01-29 08:02:26.646  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.649  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.665  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.682  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.699  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.716  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.732  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.749  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.770  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.782  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.799  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.816  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.833  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.850  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.869  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.883  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.900  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.918  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.934  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.950  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.966  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:26.978  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START (FileReaderModule)
+01-29 08:02:26.978  7096  7200 D Detox.RNMarker: CREATE_MODULE_START (FileReaderModule)
+01-29 08:02:26.978  7096  7200 D Detox.RNMarker: CREATE_MODULE_END (FileReaderModule)
+01-29 08:02:26.979  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_END (FileReaderModule)
+01-29 08:02:27.036  7096  7158 D EGL_emulation: app_time_stats: avg=49.17ms min=13.20ms max=284.55ms count=23
+01-29 08:02:27.093  7096  7200 I ReactNativeJS: []
+01-29 08:02:27.101  7096  7200 E unknown:UIManagerModuleConstantsHelper: Direct event name for 'RNSScreen' doesn't correspond to the naming convention, expected 'topEventName'->'onEventName', got 'topHeaderBackButtonClickedEvent'->'onHeaderBackButtonClicked'
+01-29 08:02:27.108  7096  7201 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreensShadowNode
+01-29 08:02:27.191  7096  7096 W UiControllerImpl: Waiting for: DYNAMIC_TASKS_HAVE_IDLED for 200 iterations.
+01-29 08:02:27.201  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:27.216  7096  7096 I ImeTracker: com.invoiceapp:82c774fd: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+01-29 08:02:27.231  7096  7096 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{9c7404f V.E...... ......ID 0,0-1080,1332 #b}
+01-29 08:02:27.257  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:27.270  7096  7096 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@107931054 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@d6470e9
+01-29 08:02:27.270  7096  7096 I ImeTracker: com.invoiceapp:1ca38dc6: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+01-29 08:02:27.271  7096  7096 E ImeBackDispatcher: Ime callback not found. Ignoring unregisterReceivedCallback. callbackId: 107931054
+01-29 08:02:27.281  7096  7200 D Detox.RNMarker: NATIVE_MODULE_SETUP_START ($$typeof)
+01-29 08:02:27.289  7096  7096 I ImeTracker: com.invoiceapp:5833b0a: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT_BY_INSETS_API
+01-29 08:02:27.290  7096  7096 I ImeTracker: com.invoiceapp:82c774fd: onHidden
+01-29 08:02:27.393  7096  7096 I Detox   : UIManagerModule is busy
+01-29 08:02:27.488  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:27.501  7096  7096 I Detox   : Network is busy, with 1 in-flight calls
+01-29 08:02:27.515  7096  7200 I ReactNativeJS: [ { id: '63e14753-8eda-41bd-8cff-f117dc5d045a',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     number: 'IN1706161025833',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706161025833' },
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:   { id: '771bbf07-7bc1-4f8e-b529-913fc81f0299',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     number: 'IN1706157688622',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706157688622' },
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:   { id: '478a5c1f-5178-48ea-b89d-0b1455f6246e',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     number: 'IN1706152170117',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706152170117' },
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:   { id: '9be8f85d-727c-41a3-92f6-86d9808c0a0e',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     number: 'IN1706152096463',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706152096463' },
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:   { id: '35126886-2b4a-41ec-9cae-e79085b85df3',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     number: 'IN1706151952684',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706151952684' },
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:   { id: '90931586-90de-4880-95ee-116d05bd3f38',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     number: 'IN1706151803859',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:27.515  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706151803859' } ]
+01-29 08:02:27.521  7096  7200 I ReactNativeJS: [ { id: '63e14753-8eda-41bd-8cff-f117dc5d045a',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     number: 'IN1706161025833',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706161025833' },
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:   { id: '771bbf07-7bc1-4f8e-b529-913fc81f0299',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     number: 'IN1706157688622',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706157688622' },
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:   { id: '478a5c1f-5178-48ea-b89d-0b1455f6246e',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     number: 'IN1706152170117',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706152170117' },
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:   { id: '9be8f85d-727c-41a3-92f6-86d9808c0a0e',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     number: 'IN1706152096463',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706152096463' },
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:   { id: '35126886-2b4a-41ec-9cae-e79085b85df3',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     number: 'IN1706151952684',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706151952684' },
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:   { id: '90931586-90de-4880-95ee-116d05bd3f38',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     number: 'IN1706151803859',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     date: '2021-01-01',
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     amount: 1000,
+01-29 08:02:27.521  7096  7200 I ReactNativeJS:     note: 'Test invoice IN1706151803859' } ]
+01-29 08:02:27.588  7096  7096 W UiControllerImpl: Waiting for: DYNAMIC_TASKS_HAVE_IDLED for 100 iterations.
+01-29 08:02:27.620  7096  7096 W com.invoiceapp: Accessing hidden field Landroid/widget/ScrollView;->mScroller:Landroid/widget/OverScroller; (unsupported, reflection, allowed)
+01-29 08:
